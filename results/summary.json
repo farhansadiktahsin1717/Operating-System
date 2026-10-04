@@ -1,0 +1,58 @@
+{
+  "seed": 307,
+  "frames": 4,
+  "pages": 10,
+  "refs": 800,
+  "policies": {
+    "FIFO": {
+      "locality": {
+        "faults": 99,
+        "hit_ratio": 0.7525
+      },
+      "shift": {
+        "faults": 168,
+        "hit_ratio": 0.58
+      }
+    },
+    "LRU": {
+      "locality": {
+        "faults": 97,
+        "hit_ratio": 0.7575
+      },
+      "shift": {
+        "faults": 170,
+        "hit_ratio": 0.575
+      }
+    },
+    "Optimal": {
+      "locality": {
+        "faults": 62,
+        "hit_ratio": 0.845
+      },
+      "shift": {
+        "faults": 106,
+        "hit_ratio": 0.735
+      }
+    },
+    "Learned": {
+      "locality": {
+        "faults": 93,
+        "hit_ratio": 0.7675
+      },
+      "shift": {
+        "faults": 181,
+        "hit_ratio": 0.5475
+      }
+    },
+    "Hybrid": {
+      "locality": {
+        "faults": 93,
+        "hit_ratio": 0.7675
+      },
+      "shift": {
+        "faults": 174,
+        "hit_ratio": 0.565
+      }
+    }
+  }
+}

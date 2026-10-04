@@ -1,0 +1,11 @@
+policy,phase,references,faults,hits,hit_ratio
+FIFO,locality,400,99,301,0.7525
+FIFO,shift,400,168,232,0.5800
+LRU,locality,400,97,303,0.7575
+LRU,shift,400,170,230,0.5750
+Optimal,locality,400,62,338,0.8450
+Optimal,shift,400,106,294,0.7350
+Learned,locality,400,93,307,0.7675
+Learned,shift,400,181,219,0.5475
+Hybrid,locality,400,93,307,0.7675
+Hybrid,shift,400,174,226,0.5650

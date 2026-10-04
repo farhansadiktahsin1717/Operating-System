@@ -1,0 +1,22 @@
+Decision tree trained on 192 candidate rows (seed 2026, locality-only trace)
+features: age, frequency, recency_rank, page_id
+
+if page_id <= 4.5:
+  if frequency <= 25.5:
+    if age <= 10.5:
+      -> P(evict)=0.33
+    else:
+      -> P(evict)=0.09
+  else:
+    if frequency <= 27.5:
+      -> P(evict)=0.67
+    else:
+      -> P(evict)=0.29
+else:
+  if page_id <= 5.5:
+    if age <= 16.5:
+      -> P(evict)=0.67
+    else:
+      -> P(evict)=0.40
+  else:
+    -> P(evict)=1.00

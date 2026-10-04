@@ -1,0 +1,6 @@
+policy,locality_hit_mean,locality_hit_std,shift_hit_mean,shift_hit_std,drop_pp_mean,drop_pp_std
+FIFO,0.7255,0.0280,0.5436,0.0224,18.19,3.03
+LRU,0.7452,0.0256,0.5416,0.0219,20.36,2.53
+Optimal,0.8421,0.0149,0.7239,0.0097,11.82,1.61
+Learned,0.7432,0.0246,0.5405,0.0233,20.28,3.22
+Hybrid,0.7509,0.0197,0.5403,0.0207,21.06,2.64
